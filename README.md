@@ -4,7 +4,8 @@
 
 ## Usage
 
-For Beanstalk:
+### For Beanstalk:
+```bash
 ./boe --beanstalkHost <beanstalkHost> --beanstalkPort <beanstalkPort> --beanstalkTube [ beanstalkTube | #{@default_tube} ]
 
 Options:
@@ -13,7 +14,7 @@ Options:
 --beanstalkPort  Port at which beanstalkd is listening
 --beanstalkTube  Tube(s) to consume, by default it will be 'default'
                  for all pass 'all', for multiple pass 'tube1, tube2'
-
+```
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
@@ -29,5 +30,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:boe]]
         end
-
-# boe
