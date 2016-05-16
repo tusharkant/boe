@@ -1,0 +1,3 @@
+%{"elixir_talk": {:git, "https://github.com/tusharkant/elixir_talk", "9e5e8d841e129e4379fd6c858716c9fe17bdab73", [branch: "master"]},
+  "logger_file_backend": {:git, "https://github.com/onkel-dirtus/logger_file_backend", "645fc130ef0c82bd5feb19ea2fa73c4a6877eaeb", [branch: "master"]},
+  "poolboy": {:hex, :poolboy, "1.5.1"}}
